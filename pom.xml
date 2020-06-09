@@ -8,11 +8,13 @@
     <artifactId>com.ppsdevelopment.filelib</artifactId>
     <version>1.0.0</version>
 
+
     <properties>
         <maven.compiler.release>8</maven.compiler.release>
         <github.global.server>github</github.global.server>
         <github.maven-plugin>0.12</github.maven-plugin>
     </properties>
+
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
@@ -108,7 +110,6 @@
                 <executions>
                     <execution>
                         <goals>
-
                             <goal>site</goal>
                         </goals>
                         <phase>deploy</phase>
@@ -121,12 +122,6 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
