@@ -10,7 +10,7 @@ import java.io.IOException;
  * Класс предоставляет методы для записи строковых данных в текстовый файл
  */
 
-public class textFileWriter {
+public class TextFileWriter {
     public static BufferedWriter initWriter(String fileName) throws IOException {
         File file=new File(fileName);
         FileWriter fileWriter=new FileWriter(file);
