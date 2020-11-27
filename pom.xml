@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>    <groupId>com.ppsdevelopment</groupId>
 
     <artifactId>com.ppsdevelopment.filelib</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <properties>
         <maven.compiler.release>8</maven.compiler.release>
         <github.global.server>github</github.global.server>
@@ -97,7 +97,7 @@
                 <artifactId>site-maven-plugin</artifactId>
                 <version>0.12</version>
                 <configuration>
-                    <message>Maven artifacts for ${project.version}</message>
+                    <message>Maven artifacts for ${project.version}1</message>
                     <noJekyll>true</noJekyll>
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                     <branch>refs/heads/mvn-repo</branch>
@@ -118,3 +118,4 @@
     </build>
 
 </project>
+
